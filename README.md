@@ -13,6 +13,15 @@ Paper 2 proposed some tighter bounds over astivation histograms.
 
 The solution to the recursive bound proposed in 3.2.5 in paper 2 is attained through observation, whose calculation process is in the ub method of ubc.
 
+## prerequisite
+python3
+
+matplotlib
+
+numpy
+
+
+
 ## todo
 improve the bound
 
