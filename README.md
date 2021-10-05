@@ -43,4 +43,6 @@ for depth 3, k = 1.1725
 
 depth 1 ==> 8 x 40 = 320
 
+In the picture below, width means input dimension. Different widths correspond to different parameter sizes. Different depths correspond to different ks.
+
 ![avatar](example.png)
