@@ -25,6 +25,17 @@ numpy
 ## todo
 improve the bound
 
+refactor
+
+## ubc
+ubc(max) returns an upper bound calculator where max defines the max width 
+
+ubc.ub(self, n, m) returns an upper bound of the activation histogram with input dim n and output m
+
+ubc(self, ns) returns the dimensation histogram of model ns
+
+e.g. with c = ubc(10), c.ub(2,10) and c(\[2,4,8]) is ok while c.ub(2,11) and c(\[4,8,12]) is not
+
 ## example
 
 The example demonstrates the uncollapsed affine regions for input dimension i, model structure i x ki x kki x ... bounded by the same parameter size.For example:
